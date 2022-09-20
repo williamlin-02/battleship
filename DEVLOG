@@ -1,0 +1,39 @@
+DEVLOG
+*note: we had an older version of a DEVLOG but due to wrong formatting we removed it and copied everything to this file instead
+
+- December 27 2019
+* William + Sharon: Worked on proposal
+
+- January 4 2020
+* Sharon: Responded to proposal issue
+
+- January 7 2020
+* Sharon: Spent a long time trying to understand SDL but couldn't really understand all of it. Also had issues with fully downloading the library. Finally worked on just printing out the welcome screen and board.
+* William: Created basic files necessary for code
+
+- January 8 2020
+* Sharon: Finally think I figured out SDL. Uploaded necessary folders that include the headers. Tested some code to create a window but am still unclear about some things.
+
+- January 9 2020
+* Sharon: I did not end up figuring out SDL. For one part, the code seemed to compile but no screen showed up even though the program was running. It was a really hard process to look through online tutorials because a lot of the codes were for C++ and I ended up just getting really confused on what I should be using.
+
+- January 13 2020
+* Sharon: Worked on the board and putting ships in different positions. Tried to understand the networking code.
+* William: Wrote function to manually place ships on board. Organized code.
+
+- January 15 2020
+* Sharon: Wrote code for hitting and winning. Modified some parts of the placing ship code.
+
+- January 16 2020
+* Sharon: Finished working on getting the game to end when a player wins. In order to do this, I wrote code for printing out the number of ships that sank.
+
+- January 17 2020
+* Sharon: Tested out networking along with the code for hitting and winning. Only one side of the socket actually closes upon win. Cleaned up a few things and fixed some error with the winning.
+
+- January 19 2020
+* Sharon: Got both sides of the socket to close when one player wins. Worked on displays: the opponent can't see the other player's ships (only see a board with hits/misses); the two boards are now displayed side by side for easy viewing; ships are printed out below the boards.
+
+- January 20 2020
+* William: Fixed the error cases for inputting orientation and coordinates. Also fixed the printing of boards for smoother transitions.
+           Fixed merge errors and code conflicts.
+* Sharon: Debugged, fixed README.md, and made end of game screen. 
